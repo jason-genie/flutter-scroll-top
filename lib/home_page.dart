@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final scrollController = ScrollController();
     final double statusBarHeight =
-        MediaQuery.of(context).padding.top; // currently it is 0
+        MediaQuery.of(context).padding.top; // currently it is 0 (no status bar right now)
 
     return Scaffold(
         body: Stack(

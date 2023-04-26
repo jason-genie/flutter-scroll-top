@@ -11,7 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Hide system status bar - start
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+    // Hide system status bar - end
+
     return const MaterialApp(title: 'Scroll to top', home: HomePage());
   }
 }
